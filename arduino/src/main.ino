@@ -5,8 +5,8 @@ byte mac[] = {0x01, 0x23, 0x45, 0x67, 0x89, 0xAB};
 IPAddress ip(192,168,1,220);
 IPAddress server(192,168,1,1);
 
-int failPin = 4;
-int okPin = 5;
+int failPin = 13;
+int okPin = 12;
 
 EthernetClient client;
 
